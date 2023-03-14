@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 #importons le module argparse qui va nous permettre d'interpréter les arguments passés sur la ligne de commande.
 
 # Module qui servira à récupérer un argument passé depuis le terminal
