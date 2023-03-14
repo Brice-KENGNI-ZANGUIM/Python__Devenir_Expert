@@ -19,7 +19,7 @@ def fibonacci(n) :
 parser = ArgumentParser()
 parser.add_argument(dest="entier", type=int, help="entier d'entrée")
 input_args = parser.parse_args()
-entier = input_args.entier
+n = input_args.entier
 
 print(f"Fibonacci({n}) = {fibonacci(n)}")
 # de cette façon on peut utiliser la fonction fibonacci(n) en lui passant la valeur 10 en argument en utilisant le script suivant dans un terminal
